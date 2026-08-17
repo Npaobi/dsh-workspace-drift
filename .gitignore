@@ -1,4 +1,26 @@
+# Dependencies and generated build output
 node_modules/
 dist/
-.dsh/
 coverage/
+
+# Local plugin state and temporary baseline files
+.dsh/
+*.tmp
+*.tmp-*
+
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs and local reports
+*.log
+reports/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
