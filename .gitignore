@@ -18,6 +18,7 @@ coverage/
 # Logs and local reports
 *.log
 reports/
+_task/
 
 # Editor and operating-system files
 .idea/
